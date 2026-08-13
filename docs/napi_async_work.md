@@ -79,8 +79,8 @@ After this fix:
 Build and run the focused PrimJS test:
 
 ```bash
-ninja -C out/Default napi_async_work_unittest
-out/Default/napi_async_work_unittest
+ninja -C out/Default napi_unittest
+out/Default/napi_unittest
 ```
 
 The test holds one work item in `Running` so that later items remain queued. It
